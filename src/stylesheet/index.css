@@ -1,0 +1,130 @@
+.home_page {
+    background-image: url(/public/social.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100vh;
+}
+
+* {
+    overflow-x: hidden;
+
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+.nav2Links{
+    background-color: rgba(255, 255, 255, 0.696);
+    font-family: "Audiowide", sans-serif;
+    height: 65px;
+}
+.nav_links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 55px;
+}
+
+.main-nav {
+    background-color: rgb(7, 160, 160);
+    padding-top: 3px;
+
+
+}
+.quote{
+    font-family: "Sofia", sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    color: white;
+    background: rgba(0, 128, 128, 0.845);
+    padding: 6px;
+}
+.info {
+    display: flex;
+    justify-content: 'center';
+    align-items: center;
+    margin-top: 110px;
+    background-color:rgba(255, 255, 255, 0.354);
+    border: 6px solid rgba(255, 255, 255, 0.881);
+    border-radius: 6px;
+    color: white;
+    padding: 20px;
+    width: 90%;
+    font-weight: 900;
+    font-size: 18px;
+
+    /* font-family: "Sofia", sans-serif; */
+
+}
+
+.usr {
+    display: flex;
+    flex-direction: row-reverse;
+    font-style: oblique;
+    margin-right: 7px;
+    background-color: rgba(255, 255, 255, 0.39);
+    font-weight: 600;
+}
+
+.usr span {
+    color: #299ef1;
+}
+
+.line {
+    background: #81bfec;
+    height: 1px;
+    width: 110%;
+    margin-top: 3px;
+
+}
+
+.post_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 3px solid black; */
+    width: 60%;
+}
+
+.spinnerSm {
+    height: 20px;
+    width: 20px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-style: oblique;
+    line-height: 15px;
+    font-weight: 900;
+    overflow: hidden;
+    /* letter-spacing: 1px; */
+
+}
+
+.logo1::-webkit-scrollbar {
+    display: none;
+}
+
+.logo2::-webkit-scrollbar {
+    display: none;
+}
+
+.logo1 {
+    font-size: medium;
+
+}
+
+.logo2 {
+    font-size: large;
+}
+
+.comment-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
